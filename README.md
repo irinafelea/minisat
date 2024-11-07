@@ -23,7 +23,7 @@ Now we clone the project, and using **Cygwin** we navigate to MiniSat directory 
 
 ``` cmake -G " MinGW Makefiles " ```
 
-``` cmake -- build ```
+``` cmake -- build ```a
 
 Now we have our minisat executable as ``` minisat.exe ``` and we can now run our files using MiniSat.
 

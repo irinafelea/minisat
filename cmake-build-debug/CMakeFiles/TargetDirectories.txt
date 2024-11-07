@@ -1,0 +1,10 @@
+/Users/irinafelea/Desktop/Facultate/Master/Verificare formala/minisat/cmake-build-debug/CMakeFiles/minisat-lib-static.dir
+/Users/irinafelea/Desktop/Facultate/Master/Verificare formala/minisat/cmake-build-debug/CMakeFiles/minisat-lib-shared.dir
+/Users/irinafelea/Desktop/Facultate/Master/Verificare formala/minisat/cmake-build-debug/CMakeFiles/minisat_core.dir
+/Users/irinafelea/Desktop/Facultate/Master/Verificare formala/minisat/cmake-build-debug/CMakeFiles/minisat_simp.dir
+/Users/irinafelea/Desktop/Facultate/Master/Verificare formala/minisat/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/irinafelea/Desktop/Facultate/Master/Verificare formala/minisat/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/irinafelea/Desktop/Facultate/Master/Verificare formala/minisat/cmake-build-debug/CMakeFiles/list_install_components.dir
+/Users/irinafelea/Desktop/Facultate/Master/Verificare formala/minisat/cmake-build-debug/CMakeFiles/install.dir
+/Users/irinafelea/Desktop/Facultate/Master/Verificare formala/minisat/cmake-build-debug/CMakeFiles/install/local.dir
+/Users/irinafelea/Desktop/Facultate/Master/Verificare formala/minisat/cmake-build-debug/CMakeFiles/install/strip.dir

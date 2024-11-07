@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-e88962b0108717391924.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "minisat",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "minisat-lib-shared::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-minisat-lib-shared-Debug-e547417aa6d3357f0c3a.json",
+					"name" : "minisat-lib-shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "minisat-lib-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-minisat-lib-static-Debug-3c4913fa8a1de08a6a71.json",
+					"name" : "minisat-lib-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "minisat_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-minisat_core-Debug-c05876443c3311f4dc33.json",
+					"name" : "minisat_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "minisat_simp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-minisat_simp-Debug-e5b0f991aca6b0b6bc3f.json",
+					"name" : "minisat_simp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/irinafelea/Desktop/Facultate/Master/Verificare formala/minisat/cmake-build-debug",
+		"source" : "/Users/irinafelea/Desktop/Facultate/Master/Verificare formala/minisat"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

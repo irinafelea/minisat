@@ -1,2 +1,5 @@
 config.mk
 build
+
+.idea
+cmake-build-debug

@@ -1,0 +1,25 @@
+INDET
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:        127192                                         |
+|  Number of clauses:          239087                                         |
+|  Parse time:                   0.36 s                                       |
+|  Simplification time:        299.51 s                                       |
+|                                                                             |
+============================[ Search Statistics ]==============================
+| Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+|           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+===============================================================================
+===============================================================================
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 0              (-nan % random) (0 /sec)
+propagations          : 3535           (12 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 168.95 MB
+CPU time              : 299.875 s
+
+INDETERMINATE
+Timeout de 5 minute atins pentru fisierul downloaded_files/planning/planning_6.cnf
+===================

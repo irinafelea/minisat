@@ -1,0 +1,25 @@
+INDET
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:           522                                         |
+|  Number of clauses:         1137920                                         |
+|  Parse time:                   0.42 s                                       |
+|  Simplification time:         59.49 s                                       |
+|                                                                             |
+============================[ Search Statistics ]==============================
+| Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+|           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+===============================================================================
+===============================================================================
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 0              (-nan % random) (0 /sec)
+propagations          : 32             (1 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 268.97 MB
+CPU time              : 59.9053 s
+
+INDETERMINATE
+Timeout de 5 minute atins pentru fisierul downloaded_files/random-circuits/random-circuits_8.cnf
+===================

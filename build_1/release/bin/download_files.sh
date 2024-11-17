@@ -1,36 +1,36 @@
 #!/bin/bash
 
-# Directorul unde sunt fișierele cu linkuri și directorul de descărcare
+# directorul unde sunt fisierele cu linkuri si directorul de descarcare
 LINKS_DIR="family_links"
 DOWNLOAD_DIR="downloaded_files"
 
-# Creăm directorul de descărcare dacă nu există
+# cream directorul de descarcare daca nu exista
 mkdir -p "$DOWNLOAD_DIR"
 
-# Parcurgem fiecare fișier din directorul cu linkuri
+# parcurgem fiecare fisier din directorul cu linkuri
 for link_file in "$LINKS_DIR"/*.txt; do
-    # Extragem numele familiei din numele fișierului (fără extensie și cale)
+    # extragem numele familiei din numele fisierului (fara extensie si cale)
     family_name=$(basename "$link_file" "_links.txt")
 
-    # Director temporar pentru descărcare specific familiei
+    # director temporar pentru descarcare specific familiei
     family_dir="$DOWNLOAD_DIR/$family_name"
     mkdir -p "$family_dir"
 
-    # Descarcă toate fișierele din lista de linkuri
+    # descarca toate fisierele din lista de linkuri
     wget --content-disposition -i "$link_file" -P "$family_dir"
 
-    # Contor pentru redenumire
+    # contor pentru redenumire
     count=1
 
-    # Parcurgem toate fișierele descărcate pentru familie
+    # parcurgem toate fisierele descarcate pentru familie
     for file in "$family_dir"/*; do
-        # Verificăm tipul de fișier și dezarhivăm doar dacă este necesar
+        # verificam tipul de fisier si dezarhivam doar daca este necesar
         if [[ "$file" == *.xz ]]; then
-            # Decomprimăm fișierul .xz direct dacă nu este arhivă tar
+            # decomprimam fisierul .xz direct daca nu este arhiva tar
             unxz "$file"
-            extracted_file="${file%.xz}"  # Numele fișierului după decomprimare
+            extracted_file="${file%.xz}"  # numele fisierului dupa decomprimare
             
-            # Redenumim fișierul decomprimat
+            # redenumim fisierul decomprimat
             new_name="${family_name}_${count}.cnf"
             mv "$extracted_file" "$family_dir/$new_name"
             ((count++))
@@ -38,7 +38,7 @@ for link_file in "$LINKS_DIR"/*.txt; do
         elif [[ "$file" == *.zip ]]; then
             unzip -j "$file" -d "$family_dir"
             for extracted_file in "$family_dir"/*; do
-                # Verificăm dacă e un fișier nou și nu este arhivă
+                # verificam daca e un fisier nou si nu este arhiva
                 if [[ "$extracted_file" != "$file" && "$extracted_file" != *.zip ]]; then
                     new_name="${family_name}_${count}.cnf"
                     mv "$extracted_file" "$family_dir/$new_name"
@@ -61,11 +61,11 @@ for link_file in "$LINKS_DIR"/*.txt; do
             rm -rf "$temp_dir"
             rm "$file"
         else
-            # Ignorăm fișierele care nu sunt arhive cunoscute
-            echo "Ignorăm fișierul necunoscut: $file"
+            # ignoram fisierele care nu sunt arhive cunoscute
+            echo "ignoram fisierul necunoscut: $file"
             continue
         fi
     done
 done
 
-echo "Descărcarea, dezarhivarea și redenumirea fișierelor s-a finalizat."
+echo "descarcarea, dezarhivarea si redenumirea fisierelor s-a finalizat."

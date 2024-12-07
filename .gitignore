@@ -1,7 +1,10 @@
 config.mk
 build
 
+downloaded_files
+
 .idea
 cmake-build-debug
 
 .DS_Store
+

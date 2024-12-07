@@ -1,0 +1,54 @@
+ 1 | 07c50b89d97a55b6e1629999a445a2ba-ctl_4201_555_unsat_pre.cnf
+ 2 | 74f145bb935650f5c982d7eec6967945-pcmax-scheduling-m43-38782-385402-SAT.sanitized.cnf
+ 3 | 07e6413459f92b613498a719125b6239-j3037_10_mdd_bm1.cnf
+ 4 | 7f1c7da531539f3be4a1e0e916913086-pcmax-scheduling-m19-2974-16501-UNSAT.sanitized.cnf
+ 5 | 09d7add3bf3b75c5d1023a92e752989a-Break_unsat_04_03.xml.cnf
+ 6 | 7f7109dce621ef361a72b3e8cee9a962-Break_unsat_06_07.xml.cnf
+ 7 | 0ac6aaf6db6a0e4ec3a06e865d01086f-pcmax-scheduling-m13-2011-12813-UNSAT.sanitized.cnf
+ 8 | 7fca438c38e5b7a70e38778ec146cfe0-ctl_4291_567_2_unsat-sc2013.cnf
+ 9 | 0d3fcbb89bfb8e821058ba3ea4284de1-j3045_10_gmto_b.cnf
+10 | 83b330c934d6dd35d56e1b1ca3638b3c-j3037_1_mdd_b.cnf
+11 | 11cc532ecddfb10a47e0a869b4867c1b-Break_triple_20_36.xml.cnf
+12 | 94dd280b1562ee7dae44b303b8fed233-Break_unsat_18_31.xml.cnf
+13 | 1afa2d7a3d817c3149da432eece66da8-worker_550_550_550_0.3.cnf
+14 | 9e85aad5707405fb349c6c5548040cf4-pcmax-scheduling-m35-32274-371389-SAT.sanitized.cnf
+15 | 207b28c3cefc55b143259222cbfd4962-pcmax-scheduling-m37-28831-324346-SAT.sanitized.cnf
+16 | a08e66296d00f480e9ccadd79fa8b904-j3045_4_gmto_b.cnf
+17 | 22b4cf412c811872d6ba5078106aeb6c-j3037_10_rggt_b.cnf
+18 | b087c195e5b7bb191d3a701aa0aa8cf1-Break_unsat_14_23.xml.cnf
+19 | 29e61b1317804fb897e84237613d42bb-worker_30_60_25_0.9.cnf
+20 | bd12a2b66110451b050bd5d2943b1854-ITC2021_Early_10.xml.cnf
+21 | 2a15a30186afdad41a49c5c5366d01be-Timetable_C_392_E_62_Cl_26_S_28.cnf
+22 | bd8bc25be2b36c64b38459c17e815814-pcmax-scheduling-m11-1517-6802-UNSAT.sanitized.cnf
+23 | 31e788a12ddc8b43ec20e77d53abaa23-pcmax-scheduling-m40-26287-324155-SAT.sanitized.cnf
+24 | be6411f4784a3c879886dda807cdc607-j3037_10_mdd_b.cnf
+25 | 32585e66749f42e161e94fc49fd64750-pcmax-scheduling-m26-6398-62377-UNSAT.sanitized.cnf
+26 | bfadd34e71516e95d0ba2a3a8fb2ba03-pcmax-scheduling-m19-10199-62102-UNSAT.sanitized.cnf
+27 | 3593875d75d6e836a3ac328c5426c1b5-Break_18_32.xml.cnf
+28 | c801a020a6c8bc3c287fea495203b114-worker_20_40_20_0.95.cnf
+29 | 3988a60c6e93167763c6fd2a347d5859-Break_08_24.xml.cnf
+30 | ca14adcb9296a7b31d7815c2ed16d0f1-ITC2021_Early_3.xml.cnf
+31 | 43e492bccfd57029b758897b17d7f04f-pb_300_09_lb_07.cnf
+32 | cc30e4eedbcf9c3bc110894d08781246-j3037_9_mdd_bm1.cnf
+33 | 44c25de7963c45e92a2407ad839f6e8b-Break_20_72.xml.cnf	
+34 | d02fae1e84cfbe799c792ba237f08f66-exam_flat_0.04_2018_3.cnf
+35 | 5432e4dd44480fadbd66647db1750c80-pcmax-scheduling-m24-24102-255206-SAT.sanitized.cnf
+36 | d7627176604d5b86f34d2f5d14d8ee99-worker_40_80_40_0.9.cnf
+37 | 576ebc1333f2c466c2dec98792721e1f-j3037_9_rggt_b.cnf
+38 | da929c2aefde5e59878ad87c4323e581-pcmax-scheduling-m12-8049-55035-SAT.sanitized.cnf
+39 | 5952b9f18b73dabb531c60e3ac85d26f-ctl_4291_567_9_unsat.cnf
+40 | dafc03ea784fee849febca7b64230558-pcmax-scheduling-m30-14113-167638-UNSAT.sanitized.cnf
+41 | 5a068ba62fe30e435a76e2ec80896ef4-ITC2021_Middle_1.xml.cnf
+42 | e481a97a93fd6b4303f39024d19c2867-j3037_1_gmto_b.cnf
+43 | 5b5dfab02ce5c12a50be3bc7d7cc42c7-pcmax-scheduling-m15-2352-13561-SAT.sanitized.cnf
+44 | eda4aa84aeeb306468396fa82a6bba5a-pb_300_05_lb_17.cnf
+45 | 5ea72bcdccc86bd1a924029f7b81aec5-atco_enc1_opt1_10_15.cnf
+46 | f7e855b18105170b0718086d3f5b5923-j3045_10_rggt_b.cnf
+47 | 62dcbf79f5ecef5618c9d9a00311326c-pcmax-scheduling-m13-1655-9604-UNSAT.sanitized.cnf
+48 | fae08ac5b6d7eeb4f56f1cfac6c51703-j3045_4_mdd_bm1.cnf
+49 | 6fc528fc3d0fd5a2c50992feb8bf0357-pcmax-scheduling-m24-17855-226744-SAT.sanitized.cnf
+50 | fb45d41807bcbbbe689de282c1310798-Break_unsat_16_27.xml.cnf
+
+-----------------------------------------------------------------------------------------------
+minisat file.cnf file.out > file.stats -cpu-lim=1728
+-----------------------------------------------------------------------------------------------
